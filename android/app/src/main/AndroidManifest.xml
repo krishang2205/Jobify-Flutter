@@ -1,0 +1,51 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.iec_project">
+
+    <!-- Add Internet permission -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:label="Jobify"
+        android:name="${applicationName}"
+        android:icon="@mipmap/ic_launcher">
+
+        <!-- ✅ Add Google Sign-In Client ID -->
+        <meta-data
+            android:name="com.google.android.gms.client_id"
+            android:value="776410109561-1r0r391tpg5i32jj4po7r9d67p6q822p.apps.googleusercontent.com" />
+
+        <!-- Add Firebase default_web_client_id -->
+        <meta-data
+            android:name="com.google.android.gms.client_id"
+            android:value="56750275303-k7atr6orv54clkmqs5q84u4h7vrjo1cb.apps.googleusercontent.com" />
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:theme="@style/LaunchTheme"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+            android:hardwareAccelerated="true"
+            android:windowSoftInputMode="adjustResize">
+
+            <meta-data
+                android:name="io.flutter.embedding.android.NormalTheme"
+                android:resource="@style/NormalTheme" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+        <!-- Flutter Meta -->
+        <meta-data
+            android:name="flutterEmbedding"
+            android:value="2" />
+    </application>
+</manifest>

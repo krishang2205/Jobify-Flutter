@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Jobify</title>
+    <meta charset="UTF-8">
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+    <meta name="description" content="A Flutter web app.">
+
+    <!-- iOS meta tags & icons -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Jobify">
+    <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png"/>
+
+    <title>iec_project</title>
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Base path: only change this if you use custom URL structure -->
+    <base href="/">
+
+    <!-- Flutter loader script -->
+    <script src="flutter.js" defer></script>
+    <!-- Add Firebase SDK scripts -->
+    <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-auth-compat.js"></script>
+    <script>
+      const firebaseConfig = {
+        apiKey: "AIzaSyB4QG4xmSGtrmQ8xgYJQAluyzy_649ppaw",
+        authDomain: "jobify-14d03.firebaseapp.com",
+        projectId: "jobify-14d03",
+        storageBucket: "jobify-14d03.firebasestorage.app",
+        messagingSenderId: "56750275303",
+        appId: "1:56750275303:web:bdf5d1e4fcd0956ffd0042",
+        measurementId: "G-N7P8K9LFLH"
+      };
+      firebase.initializeApp(firebaseConfig);
+    </script>
+    <!-- Added Google Sign-In client ID meta tag -->
+    <meta name="google-signin-client_id" content="56750275303-k7atr6orv54clkmqs5q84u4h7vrjo1cb.apps.googleusercontent.com" />
+  </head>
+  <body>
+    <script>
+      window.addEventListener('load', function () {
+        if (!_flutter) {
+          console.error('Flutter loader not found!');
+          return;
+        }
+        _flutter.loader.loadEntrypoint({
+          serviceWorker: {
+            serviceWorkerVersion: '{{flutter_service_worker_version}}',
+          },
+          onEntrypointLoaded: function (engineInitializer) {
+            engineInitializer.initializeEngine().then(function (appRunner) {
+              appRunner.runApp();
+            });
+          }
+        });
+      });
+    </script>
+  </body>
+</html>

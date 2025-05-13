@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "56750275303",
+    "firebase_url": "https://jobify-14d03-default-rtdb.firebaseio.com",
+    "project_id": "jobify-14d03",
+    "storage_bucket": "jobify-14d03.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:56750275303:android:72dfb9b17eabeeecfd0042",
+        "android_client_info": {
+          "package_name": "com.example.iec_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "56750275303-hlbguevb783lfo74flkt4mgeors4j1lp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.iec_project",
+            "certificate_hash": "41c8661a7c4b4c47274eeaeff7dd92c8b3639533"
+          }
+        },
+        {
+          "client_id": "56750275303-k7atr6orv54clkmqs5q84u4h7vrjo1cb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUYr10S-UW1kGAcQ2fOr-_GPPUoIUESOQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "56750275303-k7atr6orv54clkmqs5q84u4h7vrjo1cb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
