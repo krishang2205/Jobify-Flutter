@@ -36,7 +36,7 @@ lib/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/jobify.git
+   git clone https://github.com/krishang2205/jobify.git
    cd jobify
    ```
 
